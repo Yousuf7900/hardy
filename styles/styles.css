@@ -18,6 +18,14 @@
     font-weight: 400;
     color: #757575;
 }
+.section-title{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 
 
 .header{
@@ -49,7 +57,7 @@ nav ul{
 nav ul li{
     list-style: none;
     margin-right: 50px;
-}
+}             
 nav li a{
     text-decoration: none;
     color: #474747;
@@ -74,3 +82,26 @@ nav li a{
     font-size: 85px;
     font-weight: 700;
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-description{
+    font-weight: bold;
+
+}
+
+/* Last video: 6.5 played. 3 main video left */
